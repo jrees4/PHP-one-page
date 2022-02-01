@@ -1,0 +1,76 @@
+/* Remove white border around website */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation background + position*/
+.nav {
+    background-color:rgb(34, 31, 31);
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 7vh;
+    z-index:1; /* This stop content overlapping.*/
+}
+/* Navigation link styling */
+.nav a{
+    float: left;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    padding: 2.5vh 3vh;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Navigation link cursor hover style */
+.nav a:hover{
+    background-color: rgb(111, 104, 104);
+}
+/* navigation tab active colour */
+.nav a.active{
+    background-color: rgb(32, 140, 98);
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100vh; 
+    margin: 3px;
+    padding: 1px;
+}
+
+.body{
+    width: 100%;
+    height: 50vh;
+    
+}
+
+/* Footer Background + position*/
+.foot {
+    clear: both;
+   
+    overflow: hidden;
+    bottom: 0%;
+    width: 100%;
+    /* this is pushed to bottom by body height 100% */
+    position: relative;
+    height: 3vh;
+}
+/* Footer text colour */
+.foot p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* Padding to compensate for navbars fixed position */
+.paddtop{
+    padding-top: 7vh;
+}
+/* hidding content instead of multiple different pages */
+.hidden{
+    display: none;
+}
+.center{
+    text-align: center;
+    align-self: center;
+}
