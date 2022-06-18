@@ -18,7 +18,7 @@
             
             // $varTest = "test";
 
-            // echo("Hello World");
+            echo("Hello World");
             // echo("<p>This is a $varTest website</p>");
            
             ?> 
