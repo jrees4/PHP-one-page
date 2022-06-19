@@ -15,9 +15,8 @@ class ProductController
 
         require_once APP_ROOT . '/views/product.php';
 	}
-}
 
-public function read(int $id)
+    public function read(int $id)
 {
     $this->title = 'My first Product';
     $this->description = 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ';
@@ -27,3 +26,5 @@ public function read(int $id)
 
     return $this;
 }
+}
+
